@@ -1,0 +1,23 @@
+# Environment variables (API keys, passwords)
+payment.env
+
+# Logs
+logs/
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Database
+db.sqlite3
+
+# Virtual environment
+venv/
+env/
+
+
+# ============= Celery =============
+celerybeat-schedule
+celerybeat.pid
+*.pid
