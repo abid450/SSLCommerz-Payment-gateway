@@ -34,7 +34,7 @@ else:
 # See https://docs.djangoproject.com/en/6.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-_n0#+!r0zx+hj1r*1v^+_#q$&7v3z$(z@l3%-&l5s+#v!ykt=z'
+SECRET_KEY = config('DJANGO_SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
